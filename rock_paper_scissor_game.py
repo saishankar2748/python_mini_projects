@@ -1,4 +1,4 @@
-import random 
+import random  
 randNo = random.randint(1,3)
 
 if randNo == 1:
