@@ -32,7 +32,7 @@ def game_win(comp,you):
         else:
             return None
 
-you = input("Enter your wish: rock(r) or paper(p) or scissor(s)")
+you = input("Enter your wish : rock(r) or paper(p) or scissor(s)")
 
 res = game_win(comp,you)
 print("computer choose {} and you choose {}".format(comp,you))
