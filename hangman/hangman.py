@@ -20,7 +20,7 @@ def hangman():
 
     while len(word_letter) > 0 and lives > 0:
 
-        print('You have',lives, ' lives left and you have guessed these letters : ',' '.join(used_letters))
+        print('You have',lives, 'lives left and you have guessed these letters : ',' '.join(used_letters))
 
         word_list = [letter if letter in used_letters else '_' for letter in word]
         print('current word : ',' '.join(word_list))
